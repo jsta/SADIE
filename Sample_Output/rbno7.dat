@@ -1,0 +1,191 @@
+ Mean of original data =      9.86111
+ 
+ 
+----------------------------------------------------------------------------------------------------------------
+ 
+ 
+Results for regularity - actual data
+************************************
+Distance to regularity of original data = 845066.05659
+ 
+Results for regularity - permutations conditioning on observed counts
+*********************************************************************
+ Of the 5967 permutations: 
+        4406  had total distances less than the observed, actual data, while 
+        1561  had total distances greater than the observed.
+ 
+ The probability that the observed data is no more
+ aggregated than expected from a random permutation of 
+ the counts, i.e. P sub a, is:   .2616
+ 
+ Average distance to regularity of simulated data = 753492.31806
+ 
+ The index of aggregation, I sub a, is:  1.122
+ 
+ 
+----------------------------------------------------------------------------------------------------------------
+ 
+ 
+Results for clustering
+**********************
+ 
+ There follows in column order, 
+ with minus signs denoting direction of flow where appropriate,
+ where average flow distance is abbreviated to a.f.d.,
+ upper-case greek gamma subscript i is denoted as: Y_i,
+ and lower-case greek nu subscript i is denoted as: v_i
+ 
+ 1: Observed a.f.d. (after ranking):         Y_i or Y_j
+ 2: Overall average of permuted a.f.d.s:     o_Y
+ 3: Average permuted a.f.d. for this count:  c_Y
+ 4: Average permuted a.f.d. for this unit:   i_Y or j_Y
+ 5: Standardized index of clustering:        v_i or v_j
+ 6: x-coordinate of unit
+ 7: y-coordinate of unit
+ 8: Rank of ordered distance in col. 1
+ 9: Count of unit
+ 10: Rank of unit
+ 11: Orig. unit no. of data as read
+ 
+ The most important columns are 5 (clustering index), 6 (x) and 7 (y)
+ 
+                                             Clustering
+                                                Index      x          y
+ -.5390E+04 -.1567E+04 -.1679E+04 -.1967E+04    -2.558  2755.0000  8836.0000    1    1   33   22
+ -.5023E+04 -.1567E+04 -.1606E+04 -.2347E+04    -2.089  3160.0000  8636.0000    2    6   47   21
+ -.4638E+04 -.1567E+04 -.1692E+04 -.2170E+04    -1.980  2378.0000  6958.0000    3    0   17   45
+ -.4430E+04 -.1567E+04 -.1693E+04 -.2065E+04    -1.986  2595.0000  7563.0000    4    0    2    7
+ -.4283E+04 -.1567E+04 -.1684E+04 -.2050E+04    -1.944  2916.0000  7626.0000    5    0   13   36
+ -.4207E+04 -.1567E+04 -.1722E+04 -.2079E+04    -1.843  3055.0000  7630.0000    6    0    6   16
+ -.4167E+04 -.1567E+04 -.1707E+04 -.2142E+04    -1.786  2778.0000  7010.0000    7    0   12   35
+ -.4136E+04 -.1567E+04 -.1635E+04 -.2227E+04    -1.781  2384.0000  6235.0000    8    4   44   46
+ -.3773E+04 -.1567E+04 -.1704E+04 -.2170E+04    -1.599  3341.0000  7299.0000    9    0    5   15
+ -.3199E+04 -.1567E+04 -.1681E+04 -.2031E+04    -1.468  2366.0000  8092.0000   10    0    7   17
+ -.3042E+04 -.1567E+04 -.1688E+04 -.2141E+04    -1.319  3632.0000  5936.0000   11    0   24   66
+ -.2971E+04 -.1567E+04 -.1698E+04 -.2135E+04    -1.285  3008.0000  5108.0000   12    1   38   53
+ -.2529E+04 -.1567E+04 -.1695E+04 -.2402E+04     -.973  2256.0000  4686.0000   13    0    9   29
+ -.2214E+04 -.1567E+04 -.1627E+04 -.1947E+04    -1.095  1823.0000  2052.0000   14    7   50    3
+ -.2076E+04 -.1567E+04 -.1687E+04 -.1828E+04    -1.055  1952.0000  2166.0000   15    0   20   51
+ -.1989E+04 -.1567E+04 -.1694E+04 -.1873E+04     -.982  3894.0000  4672.0000   16    0    4   13
+ -.1773E+04 -.1567E+04 -.1720E+04 -.2249E+04     -.719  4275.0000  5505.0000   17    0    3   12
+ -.1767E+04 -.1567E+04 -.1705E+04 -.1771E+04     -.917  2666.0000  3414.0000   18    0   10   31
+ -.1736E+04 -.1567E+04 -.1688E+04 -.1448E+04    -1.113  4184.0000  1070.0000   19    1   37   32
+ -.1722E+04 -.1567E+04 -.1685E+04 -.1875E+04     -.855  3627.0000  4346.0000   20    0   23   63
+ -.1720E+04 -.1567E+04 -.1697E+04 -.1694E+04     -.938  4057.0000  4423.0000   21    0   18   47
+ -.1616E+04 -.1567E+04 -.1674E+04 -.1723E+04     -.878  2411.0000  2205.0000   22    2   43   62
+ -.1562E+04 -.1567E+04 -.1701E+04 -.1853E+04     -.776  4313.0000  4526.0000   23    0    8   26
+ -.1497E+04 -.1567E+04 -.1588E+04 -.1696E+04     -.871  2633.0000  2836.0000   24    7   53   65
+ -.1447E+04 -.1567E+04 -.1586E+04 -.1396E+04    -1.024  3270.0000  1051.0000   25    7   52   52
+ -.1397E+04 -.1567E+04 -.1679E+04 -.1351E+04     -.965  3146.0000  1199.0000   26    0   19   49
+ -.1330E+04 -.1567E+04 -.1607E+04 -.1801E+04     -.721  2629.0000  8738.0000   27    8   54   20
+ -.1327E+04 -.1567E+04 -.1660E+04 -.1593E+04     -.786  2747.0000  1928.0000   28    1   39   61
+ -.1322E+04 -.1567E+04 -.1705E+04 -.7815E+03    -1.555  5132.0000  2135.0000   29    0    1    1
+ -.1320E+04 -.1567E+04 -.1673E+04 -.7587E+03    -1.630  5134.0000  2134.0000   30    2   41   10
+ -.1317E+04 -.1567E+04 -.1699E+04 -.8142E+03    -1.492  5132.0000  2128.0000   31    1   29    5
+ -.1290E+04 -.1567E+04 -.1711E+04 -.1173E+04    -1.008  5752.0000  2656.0000   32    0   14   39
+ -.1281E+04 -.1567E+04 -.1653E+04 -.1102E+04    -1.103  4803.0000  1428.0000   33    1   32   14
+ -.1248E+04 -.1567E+04 -.1693E+04 -.1038E+04    -1.114  4867.0000  1554.0000   34    0   28   72
+ -.1233E+04 -.1567E+04 -.1661E+04 -.1966E+04     -.592  2578.0000  3720.0000   35    1   31   11
+ -.1175E+04 -.1567E+04 -.1576E+04 -.1892E+04     -.618  1661.0000   281.0000   36    9   56   48
+ -.1136E+04 -.1567E+04 -.1596E+04 -.1162E+04     -.960  6076.0000  2332.0000   37    6   46    4
+ -.1079E+04 -.1567E+04 -.1659E+04 -.9482E+03    -1.075  5680.0000  2205.0000   38    2   40    8
+ -.1075E+04 -.1567E+04 -.1702E+04 -.9489E+03    -1.043  5155.0000  1771.0000   39    0   15   40
+ -.1074E+04 -.1567E+04 -.1669E+04 -.9602E+03    -1.050  5064.0000  1591.0000   40    1   35   27
+ -.1042E+04 -.1567E+04 -.1668E+04 -.1373E+04     -.713  3019.0000  1074.0000   41    1   36   30
+ -.9564E+03 -.1567E+04 -.1619E+04 -.9069E+03    -1.021  5677.0000  2071.0000   42    6   48   38
+ -.9518E+03 -.1567E+04 -.1558E+04 -.9195E+03    -1.042  5847.0000  2123.0000   43    9   57   60
+ -.9044E+03 -.1567E+04 -.1657E+04 -.9874E+03     -.867  5309.0000  2710.0000   44    1   30    6
+ -.8670E+03 -.1567E+04 -.1701E+04 -.8559E+03     -.933  5380.0000  1730.0000   45    0   27   71
+ -.8314E+03 -.1567E+04 -.1587E+04 -.2513E+04     -.327  1554.0000  7453.0000   46    8   55   23
+ -.7365E+03 -.1567E+04 -.1684E+04 -.9136E+03     -.750  5514.0000  1687.0000   47    0   26   70
+ -.7324E+03 -.1567E+04 -.1630E+04 -.1944E+04     -.362  1642.0000   411.0000   48    5   45   57
+ -.6888E+03 -.1567E+04 -.1711E+04 -.1373E+04     -.460  3773.0000  1644.0000   49    0   25   68
+ -.6868E+03 -.1567E+04 -.1693E+04 -.1423E+04     -.447  3975.0000  2970.0000   50    0   22   59
+ -.6058E+03 -.1567E+04 -.1665E+04 -.1423E+04     -.401  4958.0000  3483.0000   51    2   42   50
+ -.5975E+03 -.1567E+04 -.1606E+04 -.1586E+04     -.368  4985.0000  3756.0000   52    7   51   44
+ -.5235E+03 -.1567E+04 -.1702E+04 -.1142E+04     -.422  4119.0000  2800.0000   53    0   11   34
+ -.5207E+03 -.1567E+04 -.1698E+04 -.1160E+04     -.415  4120.0000  2797.0000   54    0   21   55
+ -.3462E+03 -.1567E+04 -.1597E+04 -.9725E+03     -.349  5187.0000  2478.0000   55    6   49   64
+ -.2844E+03 -.1567E+04 -.1694E+04 -.1018E+04     -.258  5203.0000  2798.0000   56    0   16   42
+ -.7961E+02 -.1567E+04 -.1672E+04 -.1261E+04     -.059  4505.0000  3261.0000   57    1   34   24
+  .8647E+02  .1567E+04  .9970E+03  .1113E+04      .122  5194.0000  2884.0000   58   17   66   54
+  .2685E+03  .1567E+04  .9432E+03  .1801E+04      .248  2802.0000  3572.0000   59   11   59   28
+  .3062E+03  .1567E+04  .9554E+03  .1480E+04      .339  3056.0000  1378.0000   60   11   60   41
+  .3447E+03  .1567E+04  .9637E+03  .1161E+04      .483  4903.0000  2676.0000   61   14   62   67
+  .6539E+03  .1567E+04  .9695E+03  .1673E+04      .632  2251.0000   649.0000   62   14   61   56
+  .7401E+03  .1567E+04  .9316E+03  .1153E+04     1.080  4650.0000  1645.0000   63   11   58    2
+  .8155E+03  .1567E+04  .9697E+03  .1666E+04      .791  2824.0000   450.0000   64   15   64   25
+  .1035E+04  .1567E+04  .9696E+03  .2620E+04      .639  1385.0000  8267.0000   65   18   67   18
+  .1039E+04  .1567E+04  .1102E+04  .1306E+04     1.132  4438.0000  3304.0000   66   28   68   33
+  .1041E+04  .1567E+04  .9897E+03  .1712E+04      .963  3433.0000  3143.0000   67   15   63   19
+  .1191E+04  .1567E+04  .1878E+04  .1486E+04      .669  6063.0000  1196.0000   68  124   72    9
+  .1253E+04  .1567E+04  .1799E+04  .1393E+04      .784  4025.0000  2285.0000   69  111   71   37
+  .2318E+04  .1567E+04  .1808E+04  .1596E+04     1.260  5556.0000  3580.0000   70  110   70   43
+  .2486E+04  .1567E+04  .9598E+03  .1374E+04     2.954  4259.0000  3214.0000   71   15   65   58
+  .4083E+04  .1567E+04  .1593E+04  .1980E+04     2.030  5419.0000  4150.0000   72   82   69   69
+ 
+ 
+ Mean of clustering index, v_j, over inflows:   -1.031
+ Mean of clustering index, v_i, over outflows:    .942
+ Mean of v_i and abs. |v_j|, over all flows:   1.012
+ 
+ 
+ Negative inflows:
+ Of the 5967 permutations,  1928 had average 
+ clustering negatively greater or equal to the observed data,
+ a proportion of  .3231 of the permutations.
+ 
+ Positive outflows:
+ Of the 5967 permutations,  2689 had average 
+ clustering greater or equal to the observed data,
+ a proportion of  .4506 of the permutations.
+ 
+ Absolute values of flows:
+ Of the 5967 permutations,  2154 had average 
+ clustering greater or equal to the observed data,
+ a proportion of  .3610 of the permutations.
+ 
+ Statistics relating to null hypothesis distribution
+ of randomized counts
+ 
+ Centiles:               75th         90th         95th
+ Negative inflows      -1.2758      -1.8935      -2.3983
+ Positive outflows      1.2379       1.8216       2.2986
+ 
+ 
+ 95th %ile of the maxima of negative inflows =  -4.7536
+ 95th %ile of the maxima of positive outflows =   4.7570
+ 
+ 
+----------------------------------------------------------------------------------------------------------------
+ 
+ 
+Results for crowding - actual data
+**********************************
+ 
+ WARNING: CROWDING INDICES ONLY GIVE INFORMATIVE VALUES
+ WHEN THERE IS JUST A SINGLE CLUSTER IN THE DATA - 
+ THEY REQUIRE CAUTION IN INTERPRETATION WHEN THE
+ DATA COMPRISE SEVERAL CLUSTERS
+ 
+Distance to crowding for actual data =    1255724.9578852620
+ with unit          67 of the original data as the focus of the crowding
+ 
+ 
+Results for crowding - permuted counts
+**************************************
+ Results for distance to crowding
+ Permutations conditioning on observed counts
+ 
+ Of the 5967 permutations: 
+        1346  had total distances less than the observed, actual data, while 
+        4621  had total distances greater than the observed.
+ 
+ The probability that the observed data is no more aggregated than expected from
+  a random permutation of the counts, i.e. Q sub a, is: 
+  2.255739902798727E-001
+ 
+  The average distance to crowding of the simulated data was: 
+    1511467.3520168860
+ 
+ The index of aggregation, J sub a, is:          1.2036611541
